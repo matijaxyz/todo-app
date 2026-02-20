@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do Lista</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="kontejner">
+
+    <h1 class="naslov">Moji zadaci</h1>
+    <p class="podnaslov">Dodaj zadatak, oznaci kao zavrsen, ili obrisi.</p>
+
+    <div class="kartica">
+
+        <div class="forma">
+            <input type="text" id="inputZadatak" placeholder="Novi zadatak...">
+            <button onclick="dodajZadatak()">+</button>
+        </div>
+
+        <!-- javascript ovde ubacuje zadatke -->
+        <div id="lista"></div>
+
+    </div>
+
+</div>
+
+<script src="script.js" defer></script>
+
+</body>
+</html>
